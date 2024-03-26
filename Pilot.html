@@ -1,10 +1,10 @@
-<!DOCTYPE html> <!-- Defines that this document is an HTML5 document
- All HTML documents must start with a document type declaration
- The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+<!DOCTYPE html> <!-- The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
 It must only appear once, at the top of the page (before any HTML tags).
-The <!DOCTYPE> declaration is not case sensitive.-->
+The <!DOCTYPE> declaration is not case sensitive.
+The <!DOCTYPE> declaration for HTML5 is:-->
 
-<html lang="en"> <!-- This element is the root element of an HTML page -->
+<html lang="en"> <!-- This element is the root element of an HTML page
+The HTML document itself begins with <html> and ends with </html>.-->
 <!-- lang=""  is used to define the language of the content within the tag-->
 
 <head> <!-- This element contains meta information about the HTML page -->
@@ -15,148 +15,15 @@ The <!DOCTYPE> declaration is not case sensitive.-->
 </head>
 
 <body> <!-- This  element defines the document's body, and is a container for all the visible contents,
-such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+such as headings, paragraphs, images, hyperlinks, tables, lists, etc. These elements are between <body> and </body>. -->
 
-Hello World! This is my first website created using HTML
-
-<!-- HTML headers are defined with the <h1> to <h6> tags.
-<h1> defines the most important header. <h6> defines the least important header: -->
-<h1>This is header 1</h1>
-<h2>This is header 2</h2>
-<h3>This is header 3</h3>
-
-<!-- HTML paragraphs are defined with the <p> tag: -->
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-
-<!-- HTML images are defined with the <img> tag.
-The source file (src), alternative text (alt), width, and height are provided as attributes: -->
-<img
-        src="resources/icon.png"
-        alt="This is an image"
-        width="192"
-        height="192">
-<!--
-src: This attribute is required and specifies the path to the image you want to display. It can be a relative or absolute path.
-
-alt: This attribute provides alternative text that will be displayed if the image cannot be loaded.
-It's also used by screen readers for visually impaired users, and it's considered a good practice for accessibility and SEO.
-
-width and height: These attributes define the width and height of the image in pixels.
-If only one of these attributes is specified, the other will be scaled proportionally to maintain the aspect ratio of the image.
-If neither attribute is specified, the image will be displayed in its original size.
--->
-
-<!-- The <br> tag defines a line break, and is an empty element without a closing tag: -->
-<p>This is a <br> paragraph with a line break.</p>
-
-<!-- The title attribute defines some extra information about an element.
-The value of the title attribute will be displayed as a tooltip when you mouse over the element: -->
-<p title="I'm a tooltip">This is a paragraph.</p>
-
-<!-- Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property: -->
-<h1 style="font-size:60px;">Heading 1</h1>
-
-<!--The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
-The <hr> element is used to separate content (or define a change) in an HTML page:-->
-<h1>This is heading 1</h1>
-<p>This is some text.</p>
-<hr>
-<h2>This is heading 2</h2>
-<p>This is some other text.</p>
-<hr>
-
-<!-- The HTML <br> element defines a line break.
-Use <br> if you want a line break (a new line) without starting a new paragraph:-->
-<p>This is<br>a paragraph<br>with line breaks.</p>
-
-<!-- The HTML <pre> element defines preformatted text.
-The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:-->
-<pre>
-  My Bonnie lies over the ocean.
-  My Bonnie lies over the sea.
-  My Bonnie lies over the ocean.
-  Oh, bring back my Bonnie to me.
-</pre>
-
-<!--The HTML <b> element defines bold text, without any extra importance.-->
-<b>This text is bold</b><br>
-
-<!--The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.-->
-<strong>This text is important!</strong><br>
-
-<!--The HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.-->
-<i>This text is italic</i><br>
-
-<!--The HTML <em> element defines emphasized text. The content inside is typically displayed in italic.-->
-<em>This text is emphasized</em><br>
-
-<!--The HTML <small> element defines smaller text:-->
-<small>This is some smaller text.</small>
-
-<!--The HTML <mark> element defines text that should be marked or highlighted:-->
-<p>Do not forget to buy <mark>milk</mark> today.</p>
-
-<!--The HTML <del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:-->
-<p>My favorite color is <del>blue</del> red.</p>
-
-<!--The HTML <ins> element defines a text that has been inserted into a document. Browsers will usually underline inserted text:-->
-<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-
-<!--The HTML <sub> element defines subscript text.
-Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font.
-Subscript text can be used for chemical formulas, like H2O:-->
-<p>This is <sub>subscripted</sub> text.</p>
-
-<!--The HTML <sup> element defines superscript text.
-Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.
-Superscript text can be used for footnotes, like WWW[1]:-->
-<p>This is <sup>superscripted</sup> text.</p>
-
-<!--The HTML <blockquote> element defines a section that is quoted from another source.
-Browsers usually indent <blockquote> elements. -->
-<p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-    For 60 years, WWF has worked to help people and nature thrive.
-    As the world's leading conservation organization, WWF works in nearly 100 countries.
-    At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities,
-    wildlife, and the places in which they live.
-</blockquote>
-
-<!--The HTML <q> tag defines a short quotation.
-Browsers normally insert quotation marks around the quotation.-->
-<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-
-<!--The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
-Marking abbreviations can give useful information to browsers, translation systems and search-engines.
-Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.-->
-<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-
-<!--The HTML <address> tag defines the contact information for the author/owner of a document or an article.
-The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
-The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.-->
-<address>
-    Written by John Doe.<br>
-    Visit us at:<br>
-    Example.com<br>
-    Box 564, Disneyland<br>
-    USA
-</address>
-
-<!--The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
-Note: A person's name is not the title of a work.
-The text in the <cite> element usually renders in italic.-->
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-
-<!--BDO stands for Bi-Directional Override.
-The HTML <bdo> tag is used to override the current text direction:-->
-<bdo dir="rtl">This text will be written from right to left</bdo>
+Hello World! This is my first website created using HTML  <!-- This is a text content in the body of the HTML document -->
 
 </body>
 
-</html> <!-- This element ends the HTML document -->
+</html>
 
-<!-- In HTML, only the <!DOCTYPE> declaration is case-sensitive and must be written in uppercase.
+<!-- Remember: In HTML, only the <!DOCTYPE> declaration is case-sensitive and must be written in uppercase.
 The rest of the HTML tags, such as <html>, <body>, <head>, and <p>,
  are not case-sensitive and can be written in either uppercase or lowercase. -->
 
