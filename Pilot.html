@@ -9,21 +9,6 @@ The <!DOCTYPE> declaration is not case sensitive.-->
 
 <head> <!-- This element contains meta information about the HTML page -->
 
-    <!-- A link can be styled as a button, by using CSS: -->
-    <style>
-        a:link, a:visited {
-            background-color: #f44336;
-            color: white;
-            padding: 15px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        a:hover, a:active {
-            background-color: red;
-        }
-    </style>
 
     <title>Page Title</title>  <!-- This element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) -->
 
@@ -96,39 +81,6 @@ The text inside a <pre> element is displayed in a fixed-width font (usually Cour
   My Bonnie lies over the ocean.
   Oh, bring back my Bonnie to me.
 </pre>
-<!-- HTML links are defined with the <a> tag: -->
-<a href="https://www.instagram.com/freligio008/" target = "_blank">This link redirects you to my Instagram profile</a>
-<!--
-The href attribute in HTML is used within the <a> tag to specify the URL of the page that the link goes to.
-
-The target attribute specifies where to open the linked document.
-The target attribute can have one of the following values:
-_self - Default. Opens the document in the same window/tab as it was clicked
-_blank - Opens the document in a new window or tab
-_parent - Opens the document in the parent frame
-_top - Opens the document in the full body of the window-
--->
-
-<h2>Absolute URLs</h2> <!--using an absolute URL (a full web address) in the href attribute.-->
-<p><a href="https://www.instagram.com/freligio008/">Go to freligio008's profile</a></p>
-
-<h2>Relative URLs</h2> <!--using a relative URL (a partial web address) in the href attribute (without the "https://www" part).-->
-<p><a href="instagram.com/freligio008/">Go to freligio008's profile</a></p>
-
-<!--To use an image as a link, just put the <img> tag inside the <a> tag:-->
-<a href="https://www.instagram.com/freligio008/" target = "_blank">
-    <img src="resources/icon.png"
-         alt="Go to freligio008 Instagram profile"
-         style="width:192px;height:192px;">
-</a>
-
-<!--Use mailto: inside the href attribute to create a link that opens the user's email program
-(to let them send an email):-->
-<a href="mailto:al064697@uacam.mx">Emailed: al064697</a>
-
-<!--To use HTML button as a link, you have to add some JavaScript code.
-JavaScript allows ypu to specify what happens at certain events, such as a click of a button:-->
-<button onclick = "document.location='https://www.instagram.com/freligio008/'">Go to Instagram</button>
 
 </body>
 
