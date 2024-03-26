@@ -1,0 +1,9 @@
+body {
+    background-color: powderblue; /*The CSS background color property defines the body color to be used*/
+}
+h1 {
+    color: blue; /*The CSS color property defines the text color to be used.-*/
+}
+p {
+    color: red;
+}
