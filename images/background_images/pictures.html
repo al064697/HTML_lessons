@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>The picture Element</h2>
+
+<!--The <picture> element contains one or more <source> elements,
+each referring to different images through the srcset attribute.
+This way the browser can choose the image that best fits the current view and/or device.
+
+Each <source> element has a media attribute that defines when the image is the most suitable-->
+<picture>
+    <source media="(min-width: 650px)" srcset="../resources/workplace.jpg">
+    <source media="(min-width: 465px)" srcset="../resources/frenchfood.jpg">
+    <img src="../resources/workplace.jpg" style="width:auto;" alt="workplace">
+</picture>
+
+<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+    The browser looks for the first source element where the media query matches the user's current viewport width,
+    and fetches the image specified in the srcset attribute.</p>
+<p>The img element is required as the last child tag of the picture declaration block.
+    The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+</p>
+</body>
+</html>
