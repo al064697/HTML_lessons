@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+
+            /*If you want the entire page to have a background image,
+            you must specify the background image on the <body> element*/
+            background-image: url('../resources/background_text.jpg');
+            /*If the background image is smaller than the element,
+            the image will repeat itself, horizontally and vertically,
+             until it reaches the end of the element*/
+
+            /*To avoid the background image from repeating itself,
+            set the background-repeat property to no-repeat*/
+            background-repeat: no-repeat;
+
+            /*If you want the background image to cover the entire element,
+             you can set the background-size property to cover.*/
+            background-size: cover;
+            /*If you want the background image to stretch to fit the entire element,
+            you can set the background-size property to 100% 100%*/
+
+            /*Also, to make sure the entire element is always covered,
+            set the background-attachment property to fixedAlso,
+            to make sure the entire element is always covered,
+            set the background-attachment property to fixed*/
+            background-attachment: fixed;
+
+        }
+    </style>
+    <title>Background image on a page</title>
+</head>
+<body>
+<h2>Background Image</h2>
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+</body>
+</html>
